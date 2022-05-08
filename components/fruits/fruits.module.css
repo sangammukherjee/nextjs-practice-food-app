@@ -1,0 +1,34 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto 0px auto;
+    text-align: center;
+}
+
+.select{
+    padding: 8px 100px;
+    margin: 0 0 20px 0;
+}
+
+.itemsWrapper{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+.listItemButton{
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: #181818;
+    color: #ffdd08;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.listItemWrapper{
+    border: 1px solid #181818;
+    border-radius: 4px;
+    padding: 20px;
+}
